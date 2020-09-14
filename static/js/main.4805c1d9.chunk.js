@@ -1,0 +1,2 @@
+(this["webpackJsonptonzmy.github.io"]=this["webpackJsonptonzmy.github.io"]||[]).push([[0],{16:function(e,t,n){e.exports=n(26)},26:function(e,t,n){"use strict";n.r(t);var a=n(0),o=n.n(a),r=n(13),c=n.n(r),u=n(14),i=n(1),l=function(){return o.a.createElement("h1",null,"THis is react app")},p=function(){return o.a.createElement(u.a,null,o.a.createElement(i.a,{path:"/",exact:!0,component:l}))};c.a.render(o.a.createElement(p,null),document.getElementById("root"))}},[[16,1,2]]]);
+//# sourceMappingURL=main.4805c1d9.chunk.js.map

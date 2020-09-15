@@ -8,8 +8,15 @@ import Typography from '@material-ui/core/Typography';
 import "../css/education.css"
 
 const Education = () => (
-    <div className="education-container" style={{height: "1500px"}}>
-        <h1><Link to={'/education'} replace>Education</Link></h1>
+    <div className="education-container">
+    <div  className="title">
+        <Button href="#/education" size="large">
+                <Typography variant="h6">
+                    Education
+                </Typography>
+        </Button>
+        <div className="line"></div>
+        </div>
         <div className="education-card">
             <Card >
                 <CardContent>
@@ -25,6 +32,7 @@ const Education = () => (
                     </Typography>
                 </CardContent>
             </Card>
+            <br />
             <br />
             <Card >
                 <CardContent>

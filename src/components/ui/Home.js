@@ -1,9 +1,13 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import Typography from '@material-ui/core/Typography';
 
 const Home = () => (
-    <div style={{height: "150px"}}>
-        <h1><Link to={'/home'} replace>Home</Link></h1>
+    <div className="home-container">
+        {/* <h1><Link to={'/home'} replace>Home</Link></h1> */}
+        <Typography variant="h2" align="center">
+            Hi! <br/> This is my profolio website.
+        </Typography>
     </div>
 )
 

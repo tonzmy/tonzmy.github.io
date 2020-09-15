@@ -6,6 +6,8 @@ import Home from './Home'
 import Projects from './Projects'
 import Skills from './Skills'
 import Education from './Education';
+import Connect from './Connect'
+import "../css/main.css"
 
 const Main = () => {
 
@@ -13,11 +15,11 @@ const Main = () => {
 
     useEffect(() => {
         let currentPath = location.pathname.substring(1);
-        console.log("current path", currentPath)
+        // console.log("current path", currentPath)
         const element = document.getElementById(`${currentPath}`);
         // console.log(element)
         if (element !== null && element !== undefined) {
-            console.log(element);
+            // console.log(element);
             element.scrollIntoView({
                 behavior: "smooth"
             });
@@ -31,6 +33,7 @@ const Main = () => {
             <div id="education"><Education /></div>
             <div id="skills"><Skills /></div>
             <div id="projects"><Projects /></div>
+            <div id="connect"><Connect /></div>
             
             {/* <div>
                 <h1>THis is react app</h1>

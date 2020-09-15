@@ -4,30 +4,32 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import "../css/education.css"
 
-const Education = () => (
-    <div className="education-container">
+import "../css/experiences.css"
+
+const Experiences = () => (
+    <div className="experiences-container">
     <div  className="title">
-        <Button href="#/education" size="large">
+        <Button href="#/experiences" size="large">
                 <Typography variant="h6">
-                    Education
+                    Experiences
                 </Typography>
         </Button>
         <div className="line"></div>
         </div>
-        <div className="education-card">
+        <div className="experiences-card">
             <Card >
                 <CardContent>
                     <Typography variant="h5" component="h2">
-                    University of Waterloo
+                    Full Stack Developer Intern at EduShare
                     </Typography>
                     <Typography color="textSecondary" gutterBottoms>
-                    Master of Engineer in Electrical and Computer Engineering
+                    Building webpages using React <br/>
+                    Collaboratively building online teaching tools
                     </Typography>
                     <br />
                     <Typography color="textSecondary">
-                    Sept 2019 - Present
+                    Sept 2020 - Present
                     </Typography>
                 </CardContent>
             </Card>
@@ -36,14 +38,15 @@ const Education = () => (
             <Card >
                 <CardContent>
                     <Typography variant="h5" component="h2">
-                    Macao Polytechnic Institute
+                    Software Development Engineer Intern at NetEase, Inc. 
                     </Typography>
                     <Typography color="textSecondary" gutterBottoms>
-                    Bachelor of Science in Computing
+                    Built over 100 web crawlers to fetch latest news for NetEase News <br/>
+                    Tested and maintained 50 web crawlers
                     </Typography>
                     <br />
                     <Typography color="textSecondary">
-                    Aug 2015 - Jun 2019
+                    Jul 2017 - Aug 2018
                     </Typography>
                 </CardContent>
             </Card>
@@ -52,4 +55,4 @@ const Education = () => (
 )
 
 
-export default Education
+export default Experiences;

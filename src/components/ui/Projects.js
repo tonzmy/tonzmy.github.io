@@ -5,6 +5,7 @@ import "../css/projects.css"
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
+// project lists
 const projects_list = [
     {
         name: "Realtime Chat Application",
@@ -20,7 +21,7 @@ const projects_list = [
     },
     {
         name: "Investigation on Feature Reduction in Sentiment Analysis",
-        period: "April 2020",
+        period: "Apr 2020",
         stack: ["Python", "scikit-learn", "NumPy"],
         link: "#"
     },
@@ -38,7 +39,7 @@ const projects_list = [
     }, 
     {
         name: "REST APIs with Yelp Dataset",
-        period: "April 2020",
+        period: "Apr 2020",
         stack: ["Java", "Python", "Spring Boot", "MySQL"],
         link: "https://github.com/llbllbllbllb/yelpChallenge"
     },
@@ -56,7 +57,7 @@ const projects_list = [
     },
     {
         name: "Pattern Recognition using Machine Learning",
-        period: "Sept 2018 - April 2019",
+        period: "Sept 2018 - Apr 2019",
         stack: ["Python", "TensorFlow", "CNN", "scikit-learn", "NumPy"],
         link: "https://github.com/tonzmy/FYP"
     },

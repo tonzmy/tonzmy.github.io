@@ -7,6 +7,7 @@ const Header = () => (
     <div className="header-container">
         <Button href="#/home" size="large">Home</Button>
         <Button href="#/education" size="large">Education</Button>
+        <Button href="#/experiences" size="large">Work Experience</Button>
         <Button href="#/skills" size="large">Skills</Button>
         <Button href="#/projects" size="large">Projects</Button>
         <Button href="#/connect" size="large">Connect</Button>

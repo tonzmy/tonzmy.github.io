@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
+// import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
@@ -23,7 +23,7 @@ const Experiences = () => (
                     <Typography variant="h5" component="h2">
                     Full Stack Developer Intern at EduShare
                     </Typography>
-                    <Typography color="textSecondary" gutterBottoms>
+                    <Typography color="textSecondary">
                     Building webpages using React <br/>
                     Collaboratively building online teaching tools
                     </Typography>
@@ -40,7 +40,7 @@ const Experiences = () => (
                     <Typography variant="h5" component="h2">
                     Software Development Engineer Intern at NetEase, Inc. 
                     </Typography>
-                    <Typography color="textSecondary" gutterBottoms>
+                    <Typography color="textSecondary">
                     Built over 100 web crawlers to fetch latest news for NetEase News <br/>
                     Tested and maintained 50 web crawlers
                     </Typography>

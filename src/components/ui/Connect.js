@@ -3,8 +3,10 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import { mdiLinkedin } from '@mdi/js';
 import { mdiGithub } from '@mdi/js';
+import { mdiFileAccount } from '@mdi/js';
 import Icon from '@mdi/react'
 import "../css/connect.css"
+import Resume from '../../documents/resume.pdf'
 
 const linkedin_link = "https://www.linkedin.com/in/zhiming-lin";
 const github_link = "https://github.com/tonzmy";
@@ -29,7 +31,11 @@ const Connect = () => (
                 <a href={github_link}>
                     <Icon path={mdiGithub} size={3} color="black"/>
                 </a>
-                
+            </div>
+            <div>
+                <a href={Resume}>
+                    <Icon path={mdiFileAccount} size={3} color="gray"/>
+                </a>
             </div>
         </div>
     </div>

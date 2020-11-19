@@ -47,7 +47,7 @@ const Experiences = () => (
                     </Typography>
                     <br />
                     <Typography color="textSecondary">
-                    Jul 2017 - Aug 2018
+                    Jul 2017 - Aug 2017
                     </Typography>
                 </CardContent>
             </Card>

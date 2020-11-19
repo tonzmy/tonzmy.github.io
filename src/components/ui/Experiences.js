@@ -24,8 +24,9 @@ const Experiences = () => (
                     Full Stack Developer Intern at EduShare
                     </Typography>
                     <Typography color="textSecondary">
-                    Building webpages using React <br/>
-                    Collaboratively building online teaching tools
+                    • Implemented component-based webpages such as landing page, about-us page using React based on UI design. <br/>
+                    • Configured and deployed sites onto edushare.ca using Netlify and maintained site git repository.<br/>
+                    • Integrated email marketing with webpages to enable email subscription using HubSpot and ActiveCampaign.
                     </Typography>
                     <br />
                     <Typography color="textSecondary">
@@ -41,8 +42,8 @@ const Experiences = () => (
                     Software Development Engineer Intern at NetEase, Inc. 
                     </Typography>
                     <Typography color="textSecondary">
-                    Built over 100 web crawlers to fetch latest news for NetEase News <br/>
-                    Tested and maintained 50 web crawlers
+                    • Tested and built over 100 web crawlers using Regex to fetch latest news automatically from partners for NetEase News. <br/>
+                    • Maintained more than 50 web crawlers to keep providing services for over 400 million users.
                     </Typography>
                     <br />
                     <Typography color="textSecondary">

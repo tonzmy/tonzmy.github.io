@@ -18,6 +18,21 @@ const Experiences = () => (
         <div className="line"></div>
         </div>
         <div className="experiences-card">
+            <Card>
+                <CardContent>
+                    <Typography variant="h5" component="h2">
+                    Full Stack Developer at Cya Live
+                    </Typography>
+                    <Typography color="textSecondary">
+                    </Typography>
+                    <br />
+                    <Typography color="textSecondary">
+                    Dec 2020 - Present
+                    </Typography>
+                </CardContent>
+            </Card>
+            <br />
+            <br />
             <Card >
                 <CardContent>
                     <Typography variant="h5" component="h2">
@@ -30,7 +45,7 @@ const Experiences = () => (
                     </Typography>
                     <br />
                     <Typography color="textSecondary">
-                    Sept 2020 - Present
+                    Sept 2020 - Dec 2020
                     </Typography>
                 </CardContent>
             </Card>

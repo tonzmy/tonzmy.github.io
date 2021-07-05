@@ -24,10 +24,14 @@ const Experiences = () => (
                     Full Stack Developer at Cya Live
                     </Typography>
                     <Typography color="textSecondary">
+                    • Developed reusable frontend components using Vue.js. <br/>
+                    • Implemented DM/group video call using WebRTC. <br/>
+                    • Designed, discussed and implemented backend supports for chat features with Redis Pubsub and WebSocket. <br/>
+                    • Maintained and developed backend APIs using AWS Lambda, DynamoDB and MySQL.
                     </Typography>
                     <br />
                     <Typography color="textSecondary">
-                    Dec 2020 - Present
+                    Dec. 2020 - Present
                     </Typography>
                 </CardContent>
             </Card>
@@ -45,7 +49,7 @@ const Experiences = () => (
                     </Typography>
                     <br />
                     <Typography color="textSecondary">
-                    Sept 2020 - Dec 2020
+                    Sept. 2020 - Dec. 2020
                     </Typography>
                 </CardContent>
             </Card>
@@ -62,7 +66,7 @@ const Experiences = () => (
                     </Typography>
                     <br />
                     <Typography color="textSecondary">
-                    Jul 2017 - Aug 2017
+                    Jul. 2017 - Aug. 2017
                     </Typography>
                 </CardContent>
             </Card>

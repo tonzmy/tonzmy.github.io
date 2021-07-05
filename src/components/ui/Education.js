@@ -27,7 +27,7 @@ const Education = () => (
                     </Typography>
                     <br />
                     <Typography color="textSecondary">
-                    Sept 2019 - Present
+                    Sept. 2019 - Dec. 2020
                     </Typography>
                 </CardContent>
             </Card>
@@ -43,7 +43,7 @@ const Education = () => (
                     </Typography>
                     <br />
                     <Typography color="textSecondary">
-                    Aug 2015 - Jun 2019
+                    Aug. 2015 - Jun. 2019
                     </Typography>
                 </CardContent>
             </Card>
